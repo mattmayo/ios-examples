@@ -32,6 +32,9 @@
     NSError *error = nil;
     BOOL fetchSuccessful = [fetchedResultsController performFetch:&error];
     NSAssert(fetchSuccessful, error.description);
+    [self setMovies:[fetchedResultsController fetchedObjects]];
+    
+    // Load fresh data
     [self loadData];
 }
 
