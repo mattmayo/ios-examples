@@ -10,6 +10,8 @@
 	<string>realm-simple</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>6A474D768D264689B2700FA448E62D06A242A606</key>
+		<string>https://github.com/mattmayo/ios-examples.git</string>
 		<key>7296869F8D660DC791C988D3E34295A3DD9B0841</key>
 		<string>https://github.com/mattmayo/realm-examples.git</string>
 	</dict>
@@ -17,17 +19,27 @@
 	<string>realm-simple/realm-simple.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7296869F8D660DC791C988D3E34295A3DD9B0841</key>
+		<key>6A474D768D264689B2700FA448E62D06A242A606</key>
 		<string>../..</string>
+		<key>7296869F8D660DC791C988D3E34295A3DD9B0841</key>
+		<string>../../../realm-examples</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/mattmayo/realm-examples.git</string>
+	<string>https://github.com/mattmayo/ios-examples.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7296869F8D660DC791C988D3E34295A3DD9B0841</string>
+	<string>6A474D768D264689B2700FA448E62D06A242A606</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6A474D768D264689B2700FA448E62D06A242A606</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-examples</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
