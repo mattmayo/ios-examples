@@ -19,6 +19,8 @@
 
     // Setup fetch request from the local CoreData source
     NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:@"Movie"];
+    // if you want to limit the results set
+    //[fetchRequest setFetchLimit:1];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"title" ascending:YES];
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
     NSFetchedResultsController *fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest
